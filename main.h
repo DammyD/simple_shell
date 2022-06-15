@@ -1,5 +1,5 @@
-#ifndef  _MAIN_H_
-#define  _MAIN_H_
+#ifndef _MAIN_H_
+#define _MAIN_H_
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -22,7 +22,6 @@ extern char **environ;
  * struct list_s - linked list of variables
  * @value: value
  * @next: pointer to next node
- *
  * Description: generic linked list struct for variables.
 **/
 typedef struct list_s
@@ -35,7 +34,6 @@ typedef struct list_s
  * struct built_s - linked list of builtins
  * @name: name of builtin
  * @p: pointer to function
- *
  * Description: struct for builtin functions.
 **/
 typedef struct built_s
