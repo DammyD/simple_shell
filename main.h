@@ -8,10 +8,6 @@
 #include <sys/stat.h>
 #include <sys/types.h>
 #include <sys/wait.h>
-#include <erron.h>
-#include <fcntl.h>
-#include <signal.h>
-#include <limits.h>
 
 #define BUFFER 1024
 #define TRUE 1
